@@ -1,6 +1,6 @@
-#Main
+#Main PART
 
-##Subehe
+##Subheading
 
 how to create a repo on github,
 navigate to files with cd
