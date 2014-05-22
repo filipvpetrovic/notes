@@ -1,0 +1,5 @@
+How to start sinatra apps:
+
+I have to move to my apps directory, by cd and ls to list what I've got.
+run the bundle exec shotgun => to start the sinatra app
+and then curl <hostname:port/pages>

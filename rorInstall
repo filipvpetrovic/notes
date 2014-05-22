@@ -1,0 +1,9 @@
+https://gorails.com/setup/ubuntu/14.04
+
+in order to create ruby app => open up and start terminal
+
+then => rails new ex(nameofProject) #this app is using by default the SQLite
+
+rails new examp -d mysql #we make this app using the mysql
+
+rails new example -d postgresql #we make this app using the postgresql
