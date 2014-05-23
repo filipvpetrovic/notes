@@ -8,7 +8,7 @@ add github to your project. This is the stuff I have learn during my placement h
 
 First navigate to directory with `cd name`, if there is not existe make it by `mkdir name`! Make sure that after creation you will navigate to this directory by `cd name` and then type:
 
-```c
+
     git init  'add to this application git'
     ls -la  <list long all>
     ls man "shows you the manual of list"
@@ -25,7 +25,7 @@ First navigate to directory with `cd name`, if there is not existe make it by `m
     git commit -m 'added the readme' // commit it
     git push -u origin master // push it to the original repo
     git log --oneline // shows you the log in 1line
-```
+
 
 /// if we want to use heroku
 
