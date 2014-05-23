@@ -19,31 +19,26 @@ git push -u origin master "push it to the original repo"
 ```
 
 Code on how to clone one project and add it into new branch
-```c
-git clone require './app'
-git clone git@github.com:filipvpetrovic/notes.git
+
+
+Clone a repo
+
+    git clone git@github.com:filipvpetrovic/notes.git
+
 cd notes
-git checkout -b branchone
-git branch
-ls
-gedit TerminalCommands.md
-git status
-git diff
-git add TerminalCommands.md
-git commit -m 'Title Changed'
-git status
-git push -u origin branchone
-history
-git remote -v
-git remote add upstream git@github.com:EGiataganas/notes.git
-git remote -v
+create and switch to this bra
+    git checkout -b branchone
+list what branch
+    git branch 
+gedit TerminalCommands.md //create file or open if exist
+git push -u origin branchone //push the changes up
+git remote -v //shows you where your repo is
+git remote add upstream git@github.com:EGiataganas/notes.git  //synch it
 git fetch upstream 
-git branch 
-git branch -a
-git checkout master 
-git rebase upstream/master
-git log
-git push -u origin master 
+git branch -a //list all the branches
+git checkout master // checkout the changes to master repo
+git rebase upstream/master // ??
+git push -u origin master // push everything to master
 ```
 
 Some helpfull info about git commands
@@ -53,6 +48,8 @@ git log "shows you the log"
 git log --oneline "shows you the log in 1line"
 git remote add origin git@github.com:dotemacs/nameExample.git "give an explanation"
 cd .. "kdf"
+cd - "jkdj"
+git mv gitHub\ Commands TerminalCommands "kdhk"
 ```
 
 If we want to use heroku
