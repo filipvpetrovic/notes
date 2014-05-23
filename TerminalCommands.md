@@ -7,7 +7,6 @@ add github to your project. This is the stuff I have learn during my placement h
 ##Guidlines on how to create a repo on github!!
 
 First navigate to directory with `cd name`, if there is not existe make it by `mkdir name`! Make sure that after creation you will navigate to this directory by cd name and then type:
-=============
 
     git init // add to this application git
     ls -la // list long all
