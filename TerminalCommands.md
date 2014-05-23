@@ -1,10 +1,8 @@
-#Main PART
+#Terminal Commands and Explanations
 
-##Subheading
+##Guidlines on how to create a repo on github!!
 
-how to create a repo on github,
-navigate to files with cd
-and then type 
+###First navigate to directory with cd, if there is not existe make it by mkdir! Make sure that after creation you will navigate to this directory by cd name and then type:
 
     git init // add to this application git
     ls -la // list long all
