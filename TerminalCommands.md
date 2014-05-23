@@ -10,9 +10,9 @@ First navigate to directory with `cd name`, if there is not existe make it by `m
 
 ```c
     git init  'add to this application git'
-    ls -la // list long all
-    ls man // shows you the manual of list
-    git add example.txt // add example.txt on git
+    ls -la  <list long all>
+    ls man "shows you the manual of list"
+    git add example.txt # add example.txt on git
     git status // shows the status of git
     git commit -m "Just the start" // commit the changes
     git status // see again the status
